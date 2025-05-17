@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qweather-icons@1.6.0/font/qweather-icons.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <!-- script -->
+    <script type="module" src="./assets/scripts/index.js"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-info">
+            <div class="pic-gradient"></div>
+            <div class="today-info">
+                <h1>Mon</h1>
+                <span>1 Apr 2025</span>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>London, UK</span>
+                </div>
+            </div>
+            <div class="today-weather">
+                <img class="qi101 weather-icon" src="//cdn.weatherapi.com/weather/64x64/day/113.png"></img>
+                <h1 class="weather-temp">25°C</h1>
+                <h3 class="today-condition">Sunny</h3>
+            </div>
+        </div>
+        <div class="right-info">
+            <div class="day-info">
+                <div class="rain-container">
+                    <span class="title">Rain</span>
+                    <span class="value">4 %</span>
+                </div>
+                <div class="humidity-container">
+                    <span class="title">Humidity</span>
+                    <span class="value">65 %</span>
+                </div>
+                <div class="wind-container">
+                    <span class="title">Wind</span>
+                    <span class="value">9 mph</span>
+                </div>
+            </div>
+            <ul class="days-list">
+                <li>
+                    <img class="qi101 weather-icon" src="//cdn.weatherapi.com/weather/64x64/day/113.png"></img>
+                    <span>Tue</span>
+                    <span class="day-temp">23°C</span>
+                </li>
+                <li>
+                    <img class="qi101 weather-icon" src="//cdn.weatherapi.com/weather/64x64/day/113.png"></img>
+                    <span>Wed</span>
+                    <span class="day-temp">23°C</span>
+                </li>
+                <li>
+                    <img class="qi101 weather-icon" src="//cdn.weatherapi.com/weather/64x64/day/113.png"></img>
+                    <span>Thur</span>
+                    <span class="day-temp">23°C</span>
+                </li>
+                <li>
+                    <img class="qi101 weather-icon" src="//cdn.weatherapi.com/weather/64x64/day/113.png"></img>
+                    <span>Fri</span>
+                    <span class="day-temp">23°C</span>
+                </li>
+
+            </ul>
+            <div class="btn-container">
+                <button class="loc-button">Find City</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
